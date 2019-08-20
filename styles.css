@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10%;
+    width: 100vw;
+    border-bottom: solid black 1px;
+    padding: 10px 10px 0;
+}
+
+.header {
+    display: inline-block;
+}
+
+button {
+    float: right;
+    margin-right: 50px;
+    width: 30%;
+    height: 30px;    
+}
+
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    min-width: 100%;
+    height: 90%;
+    padding: 10px;
+    position: relative;
+    margin: auto;
+}
+
+.grid {
+    border: solid black 1px;
+    
+}
+
+.dark {
+    background-color: black;
+}
